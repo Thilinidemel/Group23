@@ -1,104 +1,113 @@
-* {
-  margin: 0;
+*{
+  margin:0;
 }
 
-header_left img{
-  height: 45px;
+.header_left_img{
+  height:70px;
+  width: auto;
 }
 
-profilepicture{
-  height: 40px;
+.user_avatar{
   border-radius: 50%;
+  width: 45px;
 }
 
-header{
+.header{
   padding: 15px 20px;
   display: flex;
   justify-content: space-between;
   position: sticky;
-  top: 0;
+  top:0;
   background-color: white;
   z-index: 100;
-  box-shadow: 0 5px 8px -9px rgba(0, 0, 0, 0.75);
+  box-shadow: 0 5px 8px -9px rgba(0,0,0,0.5)
 }
 
-header_left{
+.header_left{
   display: flex;
   align-items: center;
   justify-content: space-evenly;
 }
 
-searchbar img{
-  width: 20px;
-  height: auto;
-}
-
-searchbar{
+.header_input{
   display: flex;
   align-items: center;
   background-color: #eff2f5;
   padding: 10px;
-  margin-top: 5px;
   margin-left: 10px;
   border-radius: 999px;
 }
 
-searchbar input{
+.header_input input{
   border: none;
   background-color: transparent;
   outline-width: 0;
 }
 
-header_middle{
+.header_middle{
   display: flex;
   flex: 1;
   justify-content: center;
 }
 
-icons{
-  height: 30px;
-  width: auto;
-  padding: 10px;
+.header_option .material-icons{
+  font-size: xx-large;
+  color: gray;
 }
 
-icons:hover{
-  background-color: #E0E0E0;
-  align-items: center;
-  border-radius: 50px;
+.header_option .material-icons:hover{
+  color: #2e81f4;
 }
 
-header_middle_option{
+.header_option{
   display: flex;
   align-items: center;
   padding: 0 30px;
   cursor: pointer;
 }
 
-header_middle_option.active{
+.header_option.active .material-icons{
+  color: #2e81f4;
+}
+
+.header_option.active{
   border-bottom: 4px solid #2e81f4;
 }
 
-header_right_left_info{
+.header_option:hover{
+  background-color: #eff2f5;
+  border-radius: 10px;
+  align-items: center;
+  padding: 0 30px;
+  border-bottom: none;
+}
+
+.header_info{
   display: flex;
   align-items: center;
 }
 
-header_right_left_info h4{
+.header_info h4{
   margin-left: 10px;
 }
 
-header_right{
+.header_right{
   display: flex;
+  flex-direction: row;
   align-items: center;
 }
 
-tools{
-  background-color: #E0E0E0;
-  padding: 10px;
-  border-radius: 50px;
-  margin: 0 8px;
+.header_right .material-icons{
+  color: gray;
+  margin: 0 10px;
+  padding:7px 7px;
+  cursor: pointer;
 }
 
-tools:hover{
-  background-color: #C0C0C0;
+.header_right .material-icons:hover{
+  background-color: #eff2f5;
+  border-radius: 10px;
+  align-items: center;
+  padding: 7px 7px;
+  border-bottom: none;
 }
