@@ -27,13 +27,13 @@ if (isset($_SESSION['ID']) && isset($_SESSION['User'])) {
       </div>
 
       <div class="header_middle">
-        <div class="header_option active">
+        <div class="header_option">
           <abbr title="Home"><a href="home.php"><span class="material-icons"> home </span></a></abbr>
         </div>
         <div class="header_option">
           <abbr title="Female Clothings"><a href="women.php"><span class="material-icons"> girl </span></a></abbr>
         </div>
-        <div class="header_option">
+        <div class="header_option active">
           <abbr title="Male Clothings"><a href="men.php"><span class="material-icons"> boy </span></a></abbr>
         </div>
         <div class="header_option">

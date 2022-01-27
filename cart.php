@@ -27,7 +27,7 @@ if (isset($_SESSION['ID']) && isset($_SESSION['User'])) {
       </div>
 
       <div class="header_middle">
-        <div class="header_option active">
+        <div class="header_option">
           <abbr title="Home"><a href="home.php"><span class="material-icons"> home </span></a></abbr>
         </div>
         <div class="header_option">
@@ -39,7 +39,7 @@ if (isset($_SESSION['ID']) && isset($_SESSION['User'])) {
         <div class="header_option">
           <abbr title="Kids Section"><a href="kids.php"><span class="material-icons"> child_friendly </span></a></abbr>
         </div>
-        <div class="header_option">
+        <div class="header_option active">
           <abbr title="Cart"><a href="cart.php"><span class="material-icons"> shopping_cart </span></a></abbr>
         </div>
       </div>
