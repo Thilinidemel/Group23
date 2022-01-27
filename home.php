@@ -40,6 +40,9 @@ if (isset($_SESSION['ID']) && isset($_SESSION['User'])) {
           <abbr title="Kids Section"><a href="kids.php"><span class="material-icons"> child_friendly </span></a></abbr>
         </div>
         <div class="header_option">
+          <abbr title="Accessories"><a href="accessories.php"><span class="material-icons"> auto_awesome </span></a></abbr>
+        </div>
+        <div class="header_option">
           <abbr title="Cart"><a href="cart.php"><span class="material-icons"> shopping_cart </span></a></abbr>
         </div>
       </div>
@@ -49,11 +52,112 @@ if (isset($_SESSION['ID']) && isset($_SESSION['User'])) {
           <img class="user_avatar" src="avatar2.png" alt="Hi,"/>
           <h4><?php echo $_SESSION['User']; ?></h4>
         </div>
-        <abbr title="See Profile"><span class="material-icons"> add </span></abbr>
+        <abbr title="Admin Page"><span class="material-icons"> add </span></abbr>
         <abbr title="Comment"><span class="material-icons"> forum </span></abbr>
         <abbr title="Notifications"><span class="material-icons"> notifications </span></abbr>
-        <abbr title="More"><span class="material-icons"> expand_more </span></abbr>
+        <abbr title="Help"><span class="material-icons"> help </span></abbr>
       </div>
+
+    </div>
+
+    <div class="main">
+
+      <div class="picture">
+        <img class="pic" src="i10.jpg" alt="Check your connection!">
+      </div>
+
+      <div class="categories">
+
+        <div class="categories_header">
+          <h1>Categories</h1>
+        </div>
+
+        <div class="c_c">
+          <div class="c_c_header">
+            <h3>Women Wear</h3>
+          </div>
+          <div class="c_c_main">
+            <div class="categories_option">
+              <img class="cp" src="w01.jpg" alt="01">
+              <h3></h3>
+            </div>
+            <div class="categories_option">
+              <img class="cp" src="w02.jpg" alt="02">
+              <h3></h3>
+            </div>
+            <div class="categories_option">
+              <img class="cp" src="w03.jpg" alt="03">
+              <h3></h3>
+            </div>
+            <div class="categories_option">
+              <img class="cp" src="w04.jpg" alt="04">
+              <h3></h3>
+            </div>
+            <div class="categories_option">
+              <img class="cp" src="w05.jpg" alt="05">
+              <h3></h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="c_c">
+          <div class="c_c_header">
+            <h3>Men Wear</h3>
+          </div>
+          <div class="c_c_main">
+            <div class="categories_option">
+              <img class="cp" src="m01.jpg" alt="01">
+              <h3></h3>
+            </div>
+            <div class="categories_option">
+              <img class="cp" src="m02.jpg" alt="02">
+              <h3></h3>
+            </div>
+            <div class="categories_option">
+              <img class="cp" src="m03.jpg" alt="03">
+              <h3></h3>
+            </div>
+            <div class="categories_option">
+              <img class="cp" src="m04.jpeg" alt="04">
+              <h3></h3>
+            </div>
+            <div class="categories_option">
+              <img class="cp" src="m05.jpg" alt="05">
+              <h3></h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="c_c">
+          <div class="c_c_header">
+            <h3>Kid's Wear</h3>
+          </div>
+          <div class="c_c_main">
+            <div class="categories_option">
+              <img class="cp" src="k01.jpg" alt="01">
+              <h3></h3>
+            </div>
+            <div class="categories_option">
+              <img class="cp" src="k02.webp" alt="02">
+              <h3></h3>
+            </div>
+            <div class="categories_option">
+              <img class="cp" src="k03.jpg" alt="03">
+              <h3></h3>
+            </div>
+            <div class="categories_option">
+              <img class="cp" src="k04.jpg" alt="04">
+              <h3></h3>
+            </div>
+            <div class="categories_option">
+              <img class="cp" src="k05.jpeg" alt="05">
+              <h3></h3>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
     </div>
   </body>
 </html>
