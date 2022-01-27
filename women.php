@@ -40,6 +40,9 @@ if (isset($_SESSION['ID']) && isset($_SESSION['User'])) {
           <abbr title="Kids Section"><a href="kids.php"><span class="material-icons"> child_friendly </span></a></abbr>
         </div>
         <div class="header_option">
+          <abbr title="Accessories"><a href="accessories.php"><span class="material-icons"> auto_awesome </span></a></abbr>
+        </div>
+        <div class="header_option">
           <abbr title="Cart"><a href="cart.php"><span class="material-icons"> shopping_cart </span></a></abbr>
         </div>
       </div>
