@@ -12,33 +12,6 @@ body{
   width: auto;
 }
 
-all_body{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  z-index: 5;
-  width:45%;
-  padding: 40px 0;
-  text-align: center;
-  color: #fff;
-  font-weight: bold;
-  border: 10px inset #fff;
-}
-
-.help_header{
-  display: flex;
-  padding: 50px 50px;
-  flex-direction: column;
-}
-
-.help_header h1{
-  background-color: white;
-  padding: 20px 600px;
-  color: gray;
-  font-size: xxx-large;
-}
-
 .help_main{
   display: flex;
   flex-direction: column;
@@ -46,40 +19,96 @@ all_body{
 
 .links_header{
   display: flex;
-  padding-bottom: 50px;
+  padding-bottom: 20px;
   padding-left: 50px;
+  padding-right: 50px;
 }
 
 .links_header h3{
-  background-color: white;
-  padding: 20px 600px;
-  color: gray;
-  font-size: x-large;
+  background-color: #BC8F8F;
+  color: whitesmoke;
+  font-size: 36px;
 }
 
 .links{
   display: flex;
   flex-direction: row;
-  padding: 10px 50px;
   justify-content: space-between;
+  padding-left: 200px;
+  padding-bottom: 20px;
+  padding-right: 200px;
 }
 
 .link_options{
-  background-color: #fff;
+  background-color: #FFF0F5;
   border: none;
   border-radius: 10%;
-  padding: 20px 150px;
-
 }
 
 .link_options h4{
-  background-color: white;
-  padding: 20px 600px;
-  color: gray;
+  color: rgb(173, 133, 133);
   font-size: 36;
+  padding: 20px 100px;
 }
 
-.h4 a{
+.linkpages{
   text-decoration: none;
-  color: black;
+  color: rgb(180, 133, 133);
+  font-size: 25px;
+}
+
+.Questions{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-bottom: 20px;
+  padding-right: 50px;
+}
+
+.Q_Q{
+  background-color: 	#FFE4E1;
+  font-size: 28px;
+}
+
+.Q_A{
+  background-color: #FFF0F5;
+  color: gray;
+  padding-top: 10px;
+}
+
+.search_bar{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.sb_ask{
+  background-color: 	#D2B48C;
+  padding: 20px 20px;
+  margin: 20px;
+}
+
+.sb_ask{
+  font-size: 40px;
+}
+
+.sb_search{
+  display: flex;
+  flex-direction: row;
+  background-color: bisque;
+  border: none;
+  border-radius: 50px;
+  margin: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.input_1{
+  background-color: bisque;
+  border: none;
+  width: 400px;
+  height:25px;
+  border-radius: 50px;
 }
