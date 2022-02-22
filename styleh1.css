@@ -3,7 +3,7 @@
 }
 
 body{
-  background-color:	#87CEFA; 
+  background-color:	#87CEFA;
 }
 
 .help_main{
@@ -20,7 +20,7 @@ body{
 
 .sb_ask{
   background-color: #191970;
-  padding: 10px 20px;
+  padding: 10px 40px;
   margin: 20px;
   font-size: 36px;
   color: white;
@@ -31,17 +31,22 @@ body{
 .sb_search{
   display: flex;
   flex-direction: row;
-  background-color: #6495ED;
+  background-color:	#AFEEEE;
   border: none;
   border-radius: 50px;
   margin: 20px;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding: 5px 10px;
   color:black;
 }
 
+.imgs{
+  color: gray;
+  padding: 0px 10px;
+}
+
 .input_1{
-  background-color:	#6495ED;
+  background-color:#AFEEEE;
+  font-size: 18px;
   border: none;
   width: 400px;
   height:25px;
@@ -56,6 +61,7 @@ body{
 }
 
 .links_header h3{
+  padding: 10px 10px;
   background-color:	#00008B;
   color:white;
   font-size: 32px;
@@ -77,14 +83,13 @@ body{
 }
 
 .link_options h4{
-  color:	#191970;
   padding: 20px 80px;
 }
 
 .linkpages{
   text-decoration: none;
-  color:white);
-  font-size: 15px;
+  color:white;
+  font-size: 24px;
 }
 
 .Questions{
@@ -98,12 +103,13 @@ body{
 
 .Q_Q{
   background-color:	#191970;
+  padding: 10px 10px;
   font-size: 28px;
   color: white;
 }
 
 .Q_A{
-  background-color:	#87CEFA;
+  background-color:#B0E0E6;
   color: gray;
   padding-top: 10px;
   font-size: 20px;
