@@ -33,7 +33,7 @@
   margin: 20px;
   padding-left: 10px;
   padding-right: 10px;
-  color: gray;
+  color:black;
 }
 
 .input_1{
@@ -79,7 +79,7 @@
 
 .linkpages{
   text-decoration: none;
-  color: black);
+  color:white);
   font-size: 15px;
 }
 
@@ -95,6 +95,7 @@
 .Q_Q{
   background-color:	#191970;
   font-size: 28px;
+  color: white;
 }
 
 .Q_A{
