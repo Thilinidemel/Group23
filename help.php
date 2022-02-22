@@ -24,13 +24,13 @@ if (isset($_SESSION['ID']) && isset($_SESSION['User'])) {
         </div>
         <div class="links">
           <div class="link_options">
-            <h4>Sign in</h4>
+            <h4><a href="">Sign in</a></h4>
           </div>
           <div class="link_options">
-            <h4>Log in</h4>
+            <h4><a href="">Log in</a></h4>
           </div>
           <div class="link_options">
-            <h4>Your Cart</h4>
+            <h4><a href="">Your Cart</a></h4>
           </div>
         </div>
       </div>
