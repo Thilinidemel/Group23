@@ -1,5 +1,9 @@
 body{
+<<<<<<< HEAD
   background-image: image("i11.jpg");
+=======
+  background-image: url("i9.png");
+>>>>>>> f40c4f18a1b8eef76744320a922955eeb179e904
   display:flex;
   justify-content: center;
   align-items: center;
