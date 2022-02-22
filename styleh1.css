@@ -15,7 +15,7 @@
 }
 
 .links_header h3{
-  background-color: #BC8F8F;
+  background-color:	#FFEBCD;
   color: black;
   font-size: 32px;
 }
@@ -56,12 +56,12 @@
 }
 
 .Q_Q{
-  background-color: 	#FFE4E1;
+  background-color:	#FFC0CB;
   font-size: 28px;
 }
 
 .Q_A{
-  background-color:	#FFC0CB;
+  background-color:	#FFE4E1;
   color: gray;
   padding-top: 10px;
   font-size: 20px;
