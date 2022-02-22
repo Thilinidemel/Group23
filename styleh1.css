@@ -75,7 +75,7 @@
 }
 
 .sb_ask{
-  background-color: 	#D2B48C;
+  background-color: 	#BC8F8F;
   padding: 10px 20px;
   margin: 20px;
   font-size: 36px;
@@ -86,7 +86,7 @@
 .sb_search{
   display: flex;
   flex-direction: row;
-  background-color: bisque;
+  background-color: #FFE4E1;
   border: none;
   border-radius: 50px;
   margin: 20px;
@@ -95,7 +95,7 @@
 }
 
 .input_1{
-  background-color: bisque;
+  background-color: #FFE4E1;
   border: none;
   width: 400px;
   height:25px;
