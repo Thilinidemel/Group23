@@ -10,7 +10,7 @@ if (isset($_SESSION['ID']) && isset($_SESSION['User'])) {
   <head>
     <meta charset="utf-8">
     <title>HELP</title>
-    <link rel="stylesheet" href="styleh.css">
+    <link rel="stylesheet" href="styleh1.css">
   </head>
 
   <body>
