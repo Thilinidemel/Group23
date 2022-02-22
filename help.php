@@ -7,6 +7,7 @@ if (isset($_SESSION['ID']) && isset($_SESSION['User'])) {
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+
   <head>
     <meta charset="utf-8">
     <title>HELP</title>
