@@ -20,7 +20,7 @@ if (isset($_SESSION['ID']) && isset($_SESSION['User'])) {
       </div>
       <div class="sb_search">
         <div class="img_search">
-          <img src="search.png" alt="">
+          <img class="imgs" src="search.png" alt="">
         </div>
         <div class="input_search">
           <input class="input_1" type="text" placeholder="Discribe Your Issue" />
@@ -34,13 +34,13 @@ if (isset($_SESSION['ID']) && isset($_SESSION['User'])) {
         </div>
         <div class="links">
           <div class="link_options">
-            <h4><a href="index.php" class="linkpages">Sign in</a></h4>
+            <h4><a href="" class="linkpages">Sign in</a></h4>
           </div>
           <div class="link_options">
-            <h4><a href="index.php" class="linkpages">Log in</a></h4>
+            <h4><a href="" class="linkpages">Log in</a></h4>
           </div>
           <div class="link_options">
-            <h4><a href="cart.php" class="linkpages">Your Cart</a></h4>
+            <h4><a href="" class="linkpages">Your Cart</a></h4>
           </div>
         </div>
       </div>
