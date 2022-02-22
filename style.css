@@ -1,5 +1,10 @@
 body{
-  background: #1690A7;
+  background-image: url(i9.jpg);
+  -webkit-backgroung-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100%;
   display:flex;
   justify-content: center;
   align-items: center;
