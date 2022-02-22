@@ -1,5 +1,5 @@
 body{
-  background-image: url("i9.png");
+  background: #1690A7;
   display:flex;
   justify-content: center;
   align-items: center;
@@ -16,7 +16,7 @@ form{
   width: 500px;
   border: 2px solid #ccc;
   padding: 30px;
-  background: #fff;
+  background: #adf5ff;
   border-radius: 15px;
 }
 
