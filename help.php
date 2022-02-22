@@ -11,8 +11,6 @@ if (isset($_SESSION['ID']) && isset($_SESSION['User'])) {
     <meta charset="utf-8">
     <title>HELP</title>
     <link rel="stylesheet" href="styleh1.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
   </head>
 
   <body>
@@ -22,9 +20,7 @@ if (isset($_SESSION['ID']) && isset($_SESSION['User'])) {
       </div>
       <div class="sb_search">
         <div class="img_search">
-          <span class="material-icons-outlined">
-            search
-          </span>
+          <img src="search.png" alt="">
         </div>
         <div class="input_search">
           <input class="input_1" type="text" placeholder="Discribe Your Issue" />
