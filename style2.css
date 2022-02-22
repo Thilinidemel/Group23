@@ -1,0 +1,158 @@
+*{
+  margin:0;
+}
+
+.header_left_img{
+  height:70px;
+  width: auto;
+}
+
+.user_avatar{
+  border-radius: 50%;
+  width: 45px;
+}
+
+.header{
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  top:0;
+  background-color: white;
+  z-index: 100;
+  box-shadow: 0 5px 8px -9px rgba(0,0,0,0.5)
+}
+
+.header_left{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.header_input{
+  display: flex;
+  align-items: center;
+  background-color: #eff2f5;
+  padding: 10px;
+  margin-left: 10px;
+  border-radius: 999px;
+}
+
+.header_input input{
+  border: none;
+  background-color: transparent;
+  outline-width: 0;
+}
+
+.header_middle{
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+
+.header_option .material-icons{
+  font-size: xx-large;
+  color: gray;
+}
+
+.header_option .material-icons:hover{
+  color: #2e81f4;
+}
+
+.header_option{
+  display: flex;
+  align-items: center;
+  padding: 0 30px;
+  cursor: pointer;
+}
+
+.header_option.active .material-icons{
+  color: #2e81f4;
+}
+
+.header_option.active{
+  border-bottom: 4px solid #2e81f4;
+}
+
+.header_option:hover{
+  background-color: #eff2f5;
+  border-radius: 10px;
+  align-items: center;
+  padding: 0 30px;
+  border-bottom: none;
+}
+
+.header_info{
+  display: flex;
+  align-items: center;
+}
+
+.header_info h4{
+  margin-left: 10px;
+}
+
+.header_right{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.header_right .material-icons{
+  color: gray;
+  margin: 0 10px;
+  padding:7px 7px;
+  cursor: pointer;
+}
+
+.header_right .material-icons:hover{
+  background-color: #eff2f5;
+  border-radius: 10px;
+  align-items: center;
+  padding: 7px 7px;
+  border-bottom: none;
+}
+
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.picture{
+  justify-content: center;
+  align-items: center;
+}
+
+.pic{
+  width: 1500px;
+  padding: none;
+}
+
+.categories{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cp{
+  width: 180px;
+  height:240px;
+  padding: 0 50px;
+}
+
+.c_c{
+  display: flex;
+  flex-direction: column;
+  padding: 50px 0px;
+}
+
+.c_c_header{
+  display: flex;
+  justify-content: center;
+}
+
+.c_c_main{
+  display: flex;
+  flex-direction: row;
+}
