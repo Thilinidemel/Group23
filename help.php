@@ -40,7 +40,7 @@ if (isset($_SESSION['ID']) && isset($_SESSION['User'])) {
             <h4><a href="index.php" class="linkpages">Log in</a></h4>
           </div>
           <div class="link_options">
-            <h4><a href="home.php" class="linkpages">Your Cart</a></h4>
+            <h4><a href="cart.php" class="linkpages">Your Cart</a></h4>
           </div>
         </div>
       </div>
