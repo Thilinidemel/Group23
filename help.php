@@ -11,13 +11,12 @@ if (isset($_SESSION['ID']) && isset($_SESSION['User'])) {
     <meta charset="utf-8">
     <title>HELP</title>
     <link rel="stylesheet" href="styleh1.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
   </head>
 
   <body>
     <div class="search_bar">
-      <div class="sb_image">
-        <img src="2x.png" alt="">
-      </div>
       <div class="sb_ask">
         <h2>How can we help you?</h2>
       </div>
