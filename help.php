@@ -69,6 +69,23 @@ if (isset($_SESSION['ID']) && isset($_SESSION['User'])) {
             <br>
           </div>
         </div>
+        <div class="Questions">
+          <div class="Q_Q">
+            <h4>How to Return Products? Can We Return Products?</h4>
+          </div>
+          <div class="Q_A">
+            <h5>If you're not satisfied, you can return eligible products within 30 days of receipt for a full refund, in accordance with our Returns Policy.</h5><br>
+            <h5>No minimum purchase is required to receive free returns.</h5><br>
+            <h5>We'll provide a printable prepaid return label and pay for the return delivery costs.</h5><br>
+            <h5>To return an item, go to Your Orders.</h5><br>
+            <h5>Products must be returned in new and unworn condition, with all original packaging, tags, and certificates of authenticity. Any products returned without their original packaging and documentation will be rejected.</h5><br>
+            <h5>Any products that are resized, altered, or otherwise damaged after delivery, won't be accepted for return.</h5><br>
+            <h5>At the time of purchase, on the product's detail page, the product was identified clearly as eligible for free returns.</h5><br>
+            <h5>The item is being returned within 30 days and in accordance with our Returns Policy.</h5><br>
+            <h5>If you return products that are ineligible for free returns with products that are eligible for free returns, we may deduct the postage costs for the ineligible products from your refund amount in accordance with our general Returns Policy.</h5><br>
+            <h5>We can't accept returns delivered by hand.</h5><br>
+          </div>
+        </div>
       </div>
     </div>
   </body>
