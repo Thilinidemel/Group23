@@ -22,7 +22,9 @@ if (isset($_SESSION['ID']) && isset($_SESSION['User'])) {
       </div>
       <div class="sb_search">
         <div class="img_search">
-          <img src="search.png" alt="">
+          <span class="material-icons-outlined">
+            search
+          </span>
         </div>
         <div class="input_search">
           <input class="input_1" type="text" placeholder="Discribe Your Issue" />
