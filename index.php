@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Login</title>
-    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="style1.css"/>
   </head>
   <body>
     <form action="login.php" method="post">
