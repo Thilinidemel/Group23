@@ -12,7 +12,7 @@ if (isset($_SESSION['ID']) && isset($_SESSION['User'])) {
     <title>HOME</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
-    <link rel="stylesheet" href="style2.css"/>
+    <link rel="stylesheet" href="stylec.css"/>
   </head>
 
   <body>
@@ -68,7 +68,7 @@ if (isset($_SESSION['ID']) && isset($_SESSION['User'])) {
         <h3 class="message">The price and availability of items are subject to change. The Cart is a temporary place to store a list of your items and reflects each item's most recent price.</h3>
       </div>
       <div class="signin">
-        <h4>If you don't have an account sign up now!</h4>
+        <h4 class="sign">If you don't have an account sign up now!</h4>
         <button class="button" type="button" name="button">Sign Up</button>
       </div>
     </div>
