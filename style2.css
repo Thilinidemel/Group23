@@ -156,3 +156,42 @@
   display: flex;
   flex-direction: row;
 }
+
+.main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cart_status{
+  background-color:	#191970;
+  border: none;
+  border-radius: 50px;
+  padding: 50px 50px;
+}
+
+.title{
+  font-size: 48px;
+  color: white;
+}
+
+.cart_message{
+  background-color: #0000CD;
+  border: none;
+  border-radius: 50px;
+  padding: 30px 30px;
+  padding-top: 0px;
+}
+
+.message{
+  font-size: 30px;
+  color: white;
+}
+
+.button{
+  background-color:	#4169E1;
+  border:none;
+  border-radius: 50px;
+  padding: 20px 20px;
+  padding-top: 0px;
+}

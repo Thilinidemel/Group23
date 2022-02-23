@@ -58,6 +58,20 @@ if (isset($_SESSION['ID']) && isset($_SESSION['User'])) {
         <abbr title="More"><span class="material-icons"> expand_more </span></abbr>
       </div>
     </div>
+    <br>
+    <div class="main">
+      <div class="cart_status">
+        <h1 class="title">Your Cart is Empty</h1>
+      </div>
+      <br>
+      <div class="cart_message">
+        <h3 class="message">The price and availability of items are subject to change. The Cart is a temporary place to store a list of your items and reflects each item's most recent price.</h3>
+      </div>
+      <div class="signin">
+        <h4>If you don't have an account sign up now!</h4>
+        <button class="button" type="button" name="button">Sign Up</button>
+      </div>
+    </div>
   </body>
 </html>
 
