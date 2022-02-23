@@ -118,3 +118,7 @@ body{
 .Q_A h5{
   padding: 10px 10px;
 }
+
+.a_link{
+  text-decoration: none;
+}

@@ -74,7 +74,7 @@ if (isset($_SESSION['ID']) && isset($_SESSION['User'])) {
       </div>
       <br>
       <div>
-        <button class="button" type="button" name="button">Sign Up</button>
+        <button class="button" type="button" name="button"><a class="a_butt" href="index.php">Sign Up</a></button>
       </div>
     </div>
     </div>
