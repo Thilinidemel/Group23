@@ -67,10 +67,16 @@ if (isset($_SESSION['ID']) && isset($_SESSION['User'])) {
       <div class="cart_message">
         <h3 class="message">The price and availability of items are subject to change. The Cart is a temporary place to store a list of your items and reflects each item's most recent price.</h3>
       </div>
+      <br>
+      <div class="signin_option">
       <div class="signin">
         <h4 class="sign">If you don't have an account sign up now!</h4>
+      </div>
+      <br>
+      <div>
         <button class="button" type="button" name="button">Sign Up</button>
       </div>
+    </div>
     </div>
   </body>
 </html>
