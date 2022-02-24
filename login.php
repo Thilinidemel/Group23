@@ -29,9 +29,15 @@ if (isset($_POST['uname']) && isset($_POST['password'])) {
       if ($row['User']===$uname && $row['Password']===$pass) {
         $_SESSION['User']=$row['User'];
         $_SESSION['ID']=$row['ID'];
+		if($row['user_level']=='0'){
         header("Location: home.php");
         exit();
       }
+	  else if($row['user_level']=='1'){
+		  header("Location: home_admin.php");
+        exit();
+	  }
+	  }
       else{
         header("Location: index.php?error=Incorrect User Name or Password");
         exit();
