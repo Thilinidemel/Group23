@@ -12,7 +12,7 @@
 	 background:black;
 	 color:white;
  }
- 
+
  ul li{
 	 padding:20px;
  }
@@ -20,12 +20,12 @@
 	 background:red;
 	 color:white;
  }
- 
+
  #logo{
 	 margin-top: 15px;
 	 margin-left:39em;
  }
- 
+
 #btns{
 	display:flex;
 }
@@ -48,11 +48,11 @@ button{
  <body>
  <div id="header">
  <div id="header-content">
- <img src="admin-logo.png" id="logo" alt="admin logo">
+ <img src="admin-logo.jpg" id="logo" alt="admin logo">
  <center><h2>Welcome to the Admin Panel</h2></center>
  </div>
  </div>
- 
+
  <div id="sidebar"><br>
  <h3>&nbsp;&nbsp;&nbsp;This page is for admins to manipulate the database functions</h3>
 <p>&nbsp;&nbsp;&nbsp;Use the links below to insert, delete and update user info<p>
@@ -63,47 +63,47 @@ button{
  <button><a href="home.php">Home</a></button>
  </div>
  </div>
+
  
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  </body>
  </html>
