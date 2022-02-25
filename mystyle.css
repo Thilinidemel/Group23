@@ -5,6 +5,8 @@ body {
 h1 {
   font-size: 60px;
   color: #0595f8;
+  margin-bottom: 5px;
+
 }
 
 table {
@@ -20,3 +22,20 @@ tr:nth-child(even) {
 tr:nth-child(odd) {
   background-color: #91d8f7;
 }
+button{
+  height: 40px;
+  weight:40px;
+  font-size: 30px;
+  background-color: #0595f8 ;
+  font-family: sans-serif;
+  color: #e6eff8;
+
+}
+.btn1{
+  float: left;
+  }
+.btn2{
+  float:right;
+
+}
+
