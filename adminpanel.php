@@ -60,11 +60,11 @@ button{
  <button style="margin-left:30px"><a href="add.php">Add</a></button>
  <button><a href="delete.php">Delete</a></button>
  <button><a href="update.php">Update</a></button>
- <button><a href="home.php">Home</a></button>
+ <button><a href="home_admin.php">Home</a></button>
  </div>
  </div>
 
- 
+
 
 
 
