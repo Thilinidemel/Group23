@@ -1,0 +1,20 @@
+body{
+  background-color:   #e6eff8  ;
+}
+h1{
+  font-size: 60px;
+  color:        #0595f8      ;
+}
+table{
+  font-size: 25px;
+  border-color: lightblue;
+border-spacing: 8px;
+}
+tr:nth-child(even) {
+  background-color:    #d3eef9   ;
+
+}
+tr:nth-child(odd) {
+  background-color:    #91d8f7    ;
+
+}
