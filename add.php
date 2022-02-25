@@ -13,7 +13,7 @@ $user_level = $_POST['user_level'];
 $sql = "INSERT into loginform (ID, User, Password, user_level) values ('$id', '$name', '$pass', '$user_level')";
 
 if($_POST['submit']){
-	if(empty($id) || empty($name) || empty($pass) || empty($user_level)){
+	if(empty($id) || empty($name) || empty($pass)){
 	echo "<b>All fields must be filled</b><br/><br/>";
 	}
 	else{
