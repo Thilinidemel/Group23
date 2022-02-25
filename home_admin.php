@@ -53,7 +53,7 @@ if (isset($_SESSION['ID']) && isset($_SESSION['User'])) {
           <h4><?php echo $_SESSION['User']; ?></h4>
         </div>
         <abbr title="Admin Page"><a href="adminpanel.php"><span class="material-icons"> add </span></a></abbr>
-        <abbr title="Facilities"><a href="facilities.php"><span class="material-icons"> tips_and_updates </span></a></abbr>
+        <abbr title="Facilities"><a href="facilities.html"><span class="material-icons"> tips_and_updates </span></a></abbr>
         <abbr title="Help"><a href="help.php"><span class="material-icons"> help </span></a></abbr>
       </div>
 
