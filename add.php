@@ -7,20 +7,20 @@ include 'db_conn.php';
 $id = $_POST['id'];
 $name = $_POST['user'];
 $pass = $_POST['pass'];
-$user_level = $_POST['ulevel'];
+$user_level = $_POST['user_level'];
 
 
 $sql = "INSERT into loginform (ID, User, Password, user_level) values ('$id', '$name', '$pass', '$user_level')";
 
 if($_POST['submit']){
 	if(empty($id) || empty($name) || empty($pass) || empty($user_level)){
-	echo "<b>All fields must be filled</b><br/><br/>";	
+	echo "<b>All fields must be filled</b><br/><br/>";
 	}
 	else{
 	$x = mysqli_query($conn, $sql);
 	if($x==1){
 		echo "<b>Successfully Added</b><br/><br/>";
-		
+
 	}
 	else{
 		echo "<b>Something went wrong:(</b><br/><br/>";
