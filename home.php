@@ -54,6 +54,7 @@ if (isset($_SESSION['ID']) && isset($_SESSION['User'])) {
         </div>
         <abbr title="Facilities"><a href="facilities.html"><span class="material-icons"> tips_and_updates </span></a></abbr>
         <abbr title="Help"><a href="help.php"><span class="material-icons"> help </span></a></abbr>
+        <abbr title="Comments"><a href="comment.html"><span class="material-icons"> message </span></a></abbr>
       </div>
 
     </div>
