@@ -24,7 +24,7 @@ tr:nth-child(odd) {
 }
 button{
   height: 40px;
-  weight:40px;
+  width:40px;
   font-size: 30px;
   background-color: #0595f8 ;
   font-family: sans-serif;
