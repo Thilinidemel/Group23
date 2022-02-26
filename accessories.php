@@ -52,10 +52,8 @@ if (isset($_SESSION['ID']) && isset($_SESSION['User'])) {
           <img class="user_avatar" src="avatar2.png" alt="Hi,"/>
           <h4><?php echo $_SESSION['User']; ?></h4>
         </div>
-        <abbr title="See Profile"><span class="material-icons"> add </span></abbr>
-        <abbr title="Comment"><span class="material-icons"> forum </span></abbr>
-        <abbr title="Notifications"><span class="material-icons"> notifications </span></abbr>
-        <abbr title="More"><span class="material-icons"> expand_more </span></abbr>
+        <abbr title="Facilities"><a href="facilities.html"><span class="material-icons"> tips_and_updates </span></a></abbr>
+        <abbr title="Help"><a href="help.php"><span class="material-icons"> help </span></a></abbr>
       </div>
 
     </div>
