@@ -9,20 +9,25 @@ $name = $_POST['user'];
 $pass = $_POST['pass'];
 $sql = "UPDATE loginform SET User='$name', Password='$pass' WHERE ID='$id'";
 
-if($_POST['submit']){
-	if(empty($id) || empty($name) || empty($pass)){
-	echo "<b>All fields must be filled</b><br/><br/>";	
+if($_POST['submit'])
+{
+	if(empty($id) || empty($name) || empty($pass))
+	{
+		echo "<b>All fields must be filled</b><br/><br/>";
 	}
-	else{
-	$x = mysqli_query($conn, $sql);
-	if($x==1){
-		echo "<b>Successfully Updated</b><br/><br/>";
-		
+	else
+	{
+		$x = mysqli_query($conn, $sql);
+		if($x==1)
+		{
+			echo "<b>Successfully Updated</b><br/><br/>";
+
+		}
+		else
+		{
+			echo "<b>Something went wrong:(</b><br/><br/>";
+		}
 	}
-	else{
-		echo "<b>Something went wrong:(</b><br/><br/>";
-	}
-}
 }
 ?>
 
